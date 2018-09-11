@@ -38,5 +38,31 @@
 * ls -al > list.txt : Bu işaret öncesindeki komutun sonucunu yeni oluşturulacak bir dosyaya yazar.
 #### Softlink
 * ln -s kaynak hedef:Dosyanın veya klasörün şu anda bulunduğu dizinin yerine bağlantı yaparlar. kaynak silinse veya yeri değişirse çalışmazlar
+* stat dosya_adı: dosyaya ait ayrıntılı bilgileri sunar dosya hakkında ayrıntılı bilgi elde ederiz.
+* unlink dosya_adı: belirtilen dosya adını softlink bağlantısını kaldırır.
 #### Hardlink
-* ln dosya hedef: Hard link'ler dosyanın şu anda bulunduğu fiziksel lokasyonuna bağlantı yaparlar.Kaynağa ne olursa olsun çalışmaya devam eder.
+* ln dosya hedef: Hard link'ler dosyanın şu anda bulunduğu fiziksel lokasyonuna bağlantı yaparlar.Kaynağa ne olursa olsun çalışmaya devam eder.Eğer Hard link dosyasında değişim olursa orjinal dosyadada değişim olacaktır. Değişimde orjinal dosyanın backup dosyası oluşacaktır.
+* unlink hard_link_dosyası: hardlink ortadan kaldırır. !backup dosyası kalkmayacaktır.
+#### Arşiv Dosyalarını Oluşturma ve Çıkartma
+* tar -cvf dosya_adi.tar Dizin_veya_dosya : belirtilen dizin veya dosyayı dosya_adi.tar adında dosyaya arşivler
+  * f hangi dosyaya yazılacağını belirtir.
+  * c dosyanın arşivlenip belirtilen dosyaya yazar
+  * v işlem özet çıktısını alır
+  * x belirtilen dosyayı arşivden çıkarır
+  * z sıkıştırma işemini uygular.
+  * k eski dosyaların üzerine kayıt yapılmaması icin  parametreyi kullanabilirsiniz.
+  * -C tar -xvf dosya_adi.tar -C dizin : belirtilen dizine arşivi çıkaracaktır.
+  * --exclude tar  -cvf dosya.tar --exclude dizin1 dizin : dizin1 hariç belirtilen dizini arşivler
+  * tar -cvf dosya.tgz -T /root/include.txt -X /root/exclude.txt -T ile arşivlecek dosya ve dizin listesini -X istisnaları yani arşivlenmiyecek dosya dizin listesini belirtir.
+* tar -xvf dosya_adi.tar : Belirtilen dosyayı arşivden çıkarır.
+* tar -jxvf dosya_adi.tar : tar -zxvf dosya_adi.tar ile aynı ilemi yapar sıkıştırılmış dosyayı arşivden çıkarır.
+* tar -tvf dosya_adi.tar : Belirtilen arşiv dosyasının içindeki dosyaları gösterir
+* tar -rf dosya_adi.tar dosya : belirtilen arşiv dosyasına dosya ismindeki dosyayı ekler.
+* tar -zcvf dosya_adi.tar Dizin_veya_dosya: belirtilen dizin veya dosyayı dosya_adi.tar adında dosyaya arşivler ve sıkıştırır.
+* seq 100 : belirtilen miktarda 1 den başlayarak sıralı sayı dizisi yazar
+* gzip dosya_adi :belirtilen dosyayı gzip ile sıkıştırır.
+* gzip dosya1 dosya2 : belirtilen dosyaları sıkıştırır. 2 tane sıkışmış dosya oluşur
+* gzip -d dosya.gz : Belirtilen sıkıştırılmış dosyayı arşivden çıkarır.
+* gunzip dosya.gz : gzip -d ile aynı gorevi yapar.
+* bzip2 dosya : Belirtilen dosyayı bzip ile sıkıştırır.Gzip e göre daha performanslı sıkıştırma yapar.
+* bunzip2 dosya.bz2 :Belirtilen bzip2 ile sıkıştırılmış dosyayı arşivden çıkartır.
