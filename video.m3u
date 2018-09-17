@@ -1,4 +1,34 @@
 #EXTM3U
-#EXTINF:1485,Fairy tail 3.Bölüm
+#EXTINF:1485,Fairy tail 2 208.Bölüm
 #EXTVLCOPT:network-caching=1000
-https://cs6-1v4.vkuservideo.net/video/hls/p19/3023e08dc513/index-f3-v1-a1.m3u8?extra=7ElzbpKXCec57OH9mnOiG9VTKl0pJGx74uj8NXIYiSDuyFgYQg_H5lfV0reNE6xnc1Wwnghd6EehtFj6gaWCJ_pN8o2wSFG2FQ9Y__cQk8JDHxTA3FrC6Hl476rGN58oMeM
+https://vd25.mycdn.me/?expires=1537280888142&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=4cfLIztG8N8&ct=0&urls=217.20.145.43%3B185.16.246.36%3B5.61.22.73&clientType=0&id=91859061353
+#EXTINF:1485,Fairy tail 2 209.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd42.mycdn.me/?expires=1537280895772&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=y8Ux9bzWSm8&ct=0&urls=217.20.157.211%3B5.61.21.103%3B5.61.22.75&clientType=0&id=80574024297
+#EXTINF:1485,Fairy tail 2 210.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd27.mycdn.me/?expires=1537280901955&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=ZCRb-hOjDYs&ct=0&urls=217.20.145.51%3B5.61.22.71%3B217.20.152.71&clientType=0&id=51298962025
+#EXTINF:1485,Fairy tail 2 211.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd0.mycdn.me/?expires=1537280907599&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=nDSOnUGKqx4&ct=0&urls=217.20.157.211%3B5.61.21.107%3B217.20.152.76&clientType=0&id=70372493929
+#EXTINF:1485,Fairy tail 2 212.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd43.mycdn.me/?expires=1537280913804&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=4xOU3JqDcwc&ct=0&urls=217.20.145.43%3B5.61.21.104%3B5.61.22.69&clientType=0&id=51427740265
+#EXTINF:1485,Fairy tail 2 213.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd42.mycdn.me/?expires=1537281091362&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=ELaCaieNJUo&ct=4&urls=217.20.153.84%3B217.20.145.48%3B217.20.157.204&clientType=0&id=281999313617
+#EXTINF:1485,Fairy tail 2 214.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd44.mycdn.me/?expires=1537280930349&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=yoDU0Ftds-U&ct=0&urls=217.20.145.38%3B185.16.246.36%3B217.20.145.37&clientType=0&id=95573969581
+#EXTINF:1485,Fairy tail 2 215.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd44.mycdn.me/?expires=1537280944550&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=bIjUsm3Plgk&ct=0&urls=217.20.145.51%3B5.61.21.104%3B217.20.152.69&clientType=0&id=52099418797
+#EXTINF:1485,Fairy tail 2 216.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd5.mycdn.me/?expires=1537280951580&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=cFRw88YYSF0&ct=0&urls=217.20.153.78%3B185.16.245.36%3B217.20.153.88&clientType=0&id=52257295021
+#EXTINF:1485,Fairy tail 2 217.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd5.mycdn.me/?expires=1537280957639&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=-N1HCau2YKM&ct=0&urls=217.20.153.68%3B5.61.22.79%3B5.61.21.112&clientType=0&id=52072745645
+#EXTINF:1485,Fairy tail 2 218.Bölüm
+#EXTVLCOPT:network-caching=1000
+https://vd42.mycdn.me/?expires=1537280963696&srcIp=78.190.177.131&srcAg=CHROME&type=2&sig=nQZCrjg2tUE&ct=0&urls=217.20.157.201%3B5.61.21.104%3B5.61.22.70&clientType=0&id=52405275309
