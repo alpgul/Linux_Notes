@@ -66,3 +66,13 @@
 * gunzip dosya.gz : gzip -d ile aynı gorevi yapar.
 * bzip2 dosya : Belirtilen dosyayı bzip ile sıkıştırır.Gzip e göre daha performanslı sıkıştırma yapar.
 * bunzip2 dosya.bz2 :Belirtilen bzip2 ile sıkıştırılmış dosyayı arşivden çıkartır.
+Sistemin açılma performansını analiz eder.
+
+# Sistemin açılma süresi
+systemd-analyze time
+
+# Hangi servisin açılması ne kadar sürüyor
+systemd-analyze blame
+
+# Kritik servislerin açılışı (ağaş şeklinde)
+systemd-analyze critical-chain
